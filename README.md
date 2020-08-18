@@ -22,7 +22,7 @@ yarn start
 👤 **Hiago Prates**
 
 * Github: [@hiagopsilva](https://github.com/hiagopsilva)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/hiago-prates-04902b132\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/hiago-prates-04902b132\/)
+* LinkedIn: [Hiago Prates](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/hiago-prates-04902b132\/)
 
 ## Show your support
 
