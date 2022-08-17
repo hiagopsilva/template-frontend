@@ -6,7 +6,8 @@
   "extends": [
     "plugin:react/recommended",
     "airbnb",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -19,7 +20,8 @@
   "plugins": [
     "react",
     "@typescript-eslint",
-    "react-hooks"
+    "react-hooks",
+    "prettier"
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
@@ -38,6 +40,7 @@
     ],
     "react/react-in-jsx-scope": "off",
     "react/function-component-definition": "off",
+    "prettier/prettier": "error",
     "import/extensions": [
       "error",
       "ignorePackages",
