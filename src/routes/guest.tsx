@@ -1,6 +1,7 @@
 import React from 'react';
-import { Location } from 'history';
 import { Route } from 'react-router-dom';
+
+import { Location } from 'history';
 
 type Props = {
   element: any;

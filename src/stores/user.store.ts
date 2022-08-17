@@ -1,4 +1,5 @@
 import { action, makeObservable, observable } from 'mobx';
+
 import { UserAPI } from '~/services/API';
 import { alert } from '~/utils';
 

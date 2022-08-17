@@ -1,4 +1,5 @@
 import Axios from 'axios';
+
 import { REACT_APP_API_URL } from '~/utils';
 
 export const request = Axios.create({
