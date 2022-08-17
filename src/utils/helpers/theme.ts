@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { get } from 'lodash';
 
 export const pxToRem = (pixels: number, baseline = 16): string =>
