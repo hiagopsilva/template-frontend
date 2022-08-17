@@ -1,5 +1,5 @@
 import { action, makeObservable, observable } from 'mobx';
-import { UserAPI } from '~/services/api';
+import { UserAPI } from '~/services/API';
 import { alert } from '~/utils';
 
 export default class FilmStore {
@@ -13,7 +13,7 @@ export default class FilmStore {
   @action
   list = async (): Promise<boolean | null> => {
     try {
-      const response = await UserAPI.list();
+      const response = await UserAPI.fetch();
 
       if (response) {
         this.data = [...this.data, ...response];
