@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+import { getTheme } from '~/utils';
+
+// Breakpoint
+const inMobile = getTheme('inMobile');
+const inTablet = getTheme('inTablet');
+
 export const Wrapper = styled.div`
   display: flex;
 
@@ -18,6 +24,14 @@ export const Title = styled.h1`
 
   font-weight: bold;
   font-size: 56px;
+
+  @media ${inMobile} {
+    font-size: 50px;
+  }
+
+  @media ${inTablet} {
+    font-size: 50px;
+  }
 `;
 
 export const Description = styled.h4`
