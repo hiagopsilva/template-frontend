@@ -59,7 +59,7 @@
       {
         "newlinesBetween": "always", // new line between groups
         "groups": [
-          ["/react/"],
+          ["/^react/"],
           "module",
           "/~/",
           ["parent", "sibling", "index"]
