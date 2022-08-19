@@ -1,6 +1,7 @@
-import { inject, observer } from 'mobx-react';
 import React from 'react';
-import { Routes } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
+
+import { inject, observer } from 'mobx-react';
 
 import { Home } from '~/scenes';
 
@@ -8,10 +9,12 @@ import Guest from './guest';
 import { Routing } from './routing';
 
 const RoutesContainer: React.FC = () => (
-  <Routes>
-    <Guest path={Routing.HOME} element={<Home />} />
-  </Routes>
+  <Switch>
+    <Guest path="/" component={Home} />
+    <Guest path="/home" component={Home} />
+  </Switch>
 );
 
 export { Routing };
 export default inject('routing')(observer(RoutesContainer));
+// export default RoutesContainer;

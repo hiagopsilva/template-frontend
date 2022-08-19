@@ -4,14 +4,14 @@ import { Route } from 'react-router-dom';
 import { Location } from 'history';
 
 type Props = {
-  element: any;
+  component: React.ElementType;
   location?: Location;
   path: string;
   exact?: boolean;
 };
 
-const PublicRoute: React.FC<Props> = ({ element: Element, ...rest }) => (
-  <Route {...rest} element={<Element />} />
+const PublicRoute: React.FC<Props> = ({ component: Component, ...rest }) => (
+  <Route {...rest} render={(props): JSX.Element => <Component {...props} />} />
 );
 
 export default PublicRoute;

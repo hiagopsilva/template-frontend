@@ -1,6 +1,5 @@
-import { RouterStore } from 'mobx-react-router';
-
 import { create } from 'mobx-persist';
+import { RouterStore } from 'mobx-react-router';
 
 import UserStore from './user.store';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Toastify } from '~/utils/modules';
 
 type AlertMessage = string | string[] | Element | Element[];
