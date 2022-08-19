@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Toastify } from '~/utils/modules';
 
 type AlertMessage = string | string[] | Element | Element[];
